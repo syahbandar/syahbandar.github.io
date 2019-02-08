@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Neue Haas Grotesk Text Pro Roman';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Neue Haas Grotesk Text Pro Roman'), url('font/NHaasGroteskTXPro-55Rg.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text Pro Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Neue Haas Grotesk Text Pro Italic'), url('font/NHaasGroteskTXPro-56It.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Neue Haas Grotesk Text Pro Bold'), url('font/NHaasGroteskTXPro-75Bd.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Neue Haas Grotesk Text Pro Bold Italic'), url('font/NHaasGroteskTXPro-76BdIt.woff') format('woff');
+}
+
+body {
+  font-family: 'Neue Haas Grotesk Text Pro Roman';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Neue Haas Grotesk Text Pro Bold';
+  line-height: 1em;
+}
+
+.container{
+  padding-top: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+img{
+  padding-top: 17%;
+  width: 100%;
+  height: auto;
+}
+
+.nav a{
+  font-size: 170%;
+  padding-right: 50px;
+  color: #F02D09;
+}
+
+.nav a:hover{
+  color: #B22A1B;
+  text-decoration: none;
+}
+
+.nav a.current{
+  color: black;
+  text-decoration: none;
+}
+
+#headerIntro h1{
+  font-family: 'Neue Haas Grotesk Text Pro Bold';
+  font-size: 6em;
+  padding-bottom: 3%;
+  display: inline;
+  vertical-align: top;
+}
+
+#headerIntro p {
+  font-family: 'Neue Haas Grotesk Text Pro Bold';
+  padding-bottom: 3%;
+  display: inline;
+}
+
+#text {
+	display: inline-block;
+  color: #2980b9;
+	border-right: 3px solid #2980b9;
+}
+
+.content p {
+  font-size: 28px;
+	line-height: 37px;
+}
+
+.content h2{
+  font-size: 35px;
+}
+
+.card-img-top {
+  object-fit: fill;
+}
+
+.side{
+  width: 80%;
+}
+
+.footer{
+  padding-top: 3%;
+  padding-bottom: 5%;
+  background-color: red;
+}
+
+.footer h1{
+  font-family: 'Neue Haas Grotesk Text Pro Bold';
+  color: white;
+  justify-content: left;
+}
+
+.footer a{
+  font-family: 'Neue Haas Grotesk Text Pro Bold';
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:active{
+  color: #B22A1B;
+}
